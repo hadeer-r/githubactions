@@ -11,5 +11,5 @@ jobs:
     steps:
       - uses: actions/checkout@v7.0.0
       - name: first strip
-        run: echo "hello world"
+        run: cat file
         shell: bash
