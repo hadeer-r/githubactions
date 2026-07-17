@@ -6,10 +6,9 @@ on:
       - main
 
 jobs:
-  hello-world:
-  runs-on: ubuntu-latest
-  steps:
-    - name: first strip
-      run: echo "hello world"
-      shell: bash
-
+  hello_world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first strip
+        run: echo "hello world"
+        shell: bash
