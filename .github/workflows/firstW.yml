@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  name: hello world
+  hello-world:
   runs-on: ubuntu-latest
   steps:
     - name: first strip
